@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratikum 5</title>
+    <link rel="stylesheet " href="style.css">
+    <script src="script2.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>MARI BERMAIN</h1>
+        </div>
+    </header>
+    <main>
+        <!-- isi identitas -->
+        <section class="identitas">
+            <div>
+                <label for="nama" name="nama">Nama:</label>
+                <input type="text" id="nama">
+            </div>
+            <div>
+                <label for="sklh" name="sklh">Asal Sekolah:</label>
+                <input type="text" id="sklh">
+            </div>
+            <button onclick="simpandata()">Simpan Data</button>
+        </section>
+        <section>
+            <!-- tes kemampuan -->
+            <div class="soal">
+                <div>
+                    <h3>kerjakan soal-soal berikut:</h3>
+                </div>
+                <div>
+                <label for="soal1" name="soal1">5 + 5 =</label>
+                <input type="number" id="soal1">
+                </div>
+                <div>
+                <label for="soal2" name="soal2">Presiden pertama Indonesia?</label>
+                <input type="text" id="soal2">
+                </div>
+                <div>
+                <button onclick="cekjawaban()">Cek Jawaban</button>
+                </div>
+            </div>
+        </section>
+        <!-- lanjutan -->
+         <div class="next">
+            Tekan untuk soal berikutnya:
+            <button>Lanjut</button>
+            
+        </div>
+    </main>
+</body>
+
+</html>
